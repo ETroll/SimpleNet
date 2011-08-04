@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB440F6F13EB077500C084EB /* NSMutableArray+Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = CB440F6913EB077500C084EB /* NSMutableArray+Queue.h */; };
+		CB440F7013EB077500C084EB /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB440F6A13EB077500C084EB /* NSMutableArray+Queue.m */; };
+		CB440F7113EB077500C084EB /* SNNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = CB440F6B13EB077500C084EB /* SNNetwork.h */; };
+		CB440F7213EB077500C084EB /* SNNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CB440F6C13EB077500C084EB /* SNNetwork.m */; };
+		CB440F7313EB077500C084EB /* SNSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = CB440F6D13EB077500C084EB /* SNSocket.h */; };
+		CB440F7413EB077500C084EB /* SNSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CB440F6E13EB077500C084EB /* SNSocket.m */; };
 		CBBA56D413EB026E00803183 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA56D313EB026E00803183 /* Cocoa.framework */; };
 		CBBA56DE13EB026E00803183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBBA56DC13EB026E00803183 /* InfoPlist.strings */; };
 		CBBA56EB13EB028100803183 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA56D313EB026E00803183 /* Cocoa.framework */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB440F6913EB077500C084EB /* NSMutableArray+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Queue.h"; sourceTree = "<group>"; };
+		CB440F6A13EB077500C084EB /* NSMutableArray+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Queue.m"; sourceTree = "<group>"; };
+		CB440F6B13EB077500C084EB /* SNNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNNetwork.h; sourceTree = "<group>"; };
+		CB440F6C13EB077500C084EB /* SNNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNNetwork.m; sourceTree = "<group>"; };
+		CB440F6D13EB077500C084EB /* SNSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSocket.h; sourceTree = "<group>"; };
+		CB440F6E13EB077500C084EB /* SNSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSocket.m; sourceTree = "<group>"; };
 		CBBA56D013EB026E00803183 /* SimpleNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBA56D313EB026E00803183 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CBBA56D613EB026E00803183 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -27,12 +39,12 @@
 		CBBA56DD13EB026E00803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBBA56DF13EB026E00803183 /* SimpleNet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleNet-Prefix.pch"; sourceTree = "<group>"; };
 		CBBA56E913EB028100803183 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBBA56EE13EB028100803183 /* TestApp-Info.plist */ = {isa = PBXFileReference; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
+		CBBA56EE13EB028100803183 /* TestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
 		CBBA56F013EB028100803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBBA56F213EB028100803183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBBA56F413EB028100803183 /* TestApp-Prefix.pch */ = {isa = PBXFileReference; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
+		CBBA56F413EB028100803183 /* TestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
 		CBBA56F613EB028100803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		CBBA56F813EB028100803183 /* TestAppAppDelegate.h */ = {isa = PBXFileReference; path = TestAppAppDelegate.h; sourceTree = "<group>"; };
+		CBBA56F813EB028100803183 /* TestAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppAppDelegate.h; sourceTree = "<group>"; };
 		CBBA56F913EB028100803183 /* TestAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppAppDelegate.m; sourceTree = "<group>"; };
 		CBBA56FC13EB028100803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +110,12 @@
 		CBBA56D913EB026E00803183 /* SimpleNet */ = {
 			isa = PBXGroup;
 			children = (
+				CB440F6913EB077500C084EB /* NSMutableArray+Queue.h */,
+				CB440F6A13EB077500C084EB /* NSMutableArray+Queue.m */,
+				CB440F6B13EB077500C084EB /* SNNetwork.h */,
+				CB440F6C13EB077500C084EB /* SNNetwork.m */,
+				CB440F6D13EB077500C084EB /* SNSocket.h */,
+				CB440F6E13EB077500C084EB /* SNSocket.m */,
 				CBBA56DA13EB026E00803183 /* Supporting Files */,
 			);
 			path = SimpleNet;
@@ -143,6 +161,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB440F6F13EB077500C084EB /* NSMutableArray+Queue.h in Headers */,
+				CB440F7113EB077500C084EB /* SNNetwork.h in Headers */,
+				CB440F7313EB077500C084EB /* SNSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB440F7013EB077500C084EB /* NSMutableArray+Queue.m in Sources */,
+				CB440F7213EB077500C084EB /* SNNetwork.m in Sources */,
+				CB440F7413EB077500C084EB /* SNSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +424,7 @@
 				CBBA56E413EB026E00803183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBBA56FE13EB028100803183 /* Build configuration list for PBXNativeTarget "TestApp" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +433,7 @@
 				CBBA570013EB028100803183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
