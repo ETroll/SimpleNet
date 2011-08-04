@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBBA56D413EB026E00803183 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA56D313EB026E00803183 /* Cocoa.framework */; };
+		CBBA56DE13EB026E00803183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBBA56DC13EB026E00803183 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBBA56D013EB026E00803183 /* SimpleNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBBA56D313EB026E00803183 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CBBA56D613EB026E00803183 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CBBA56D713EB026E00803183 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CBBA56D813EB026E00803183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBBA56DB13EB026E00803183 /* SimpleNet-Info.plist */ = {isa = PBXFileReference; path = "SimpleNet-Info.plist"; sourceTree = "<group>"; };
+		CBBA56DD13EB026E00803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBBA56DF13EB026E00803183 /* SimpleNet-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleNet-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBBA56CC13EB026E00803183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA56D413EB026E00803183 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBBA56C413EB026E00803183 = {
+			isa = PBXGroup;
+			children = (
+				CBBA56D913EB026E00803183 /* SimpleNet */,
+				CBBA56D213EB026E00803183 /* Frameworks */,
+				CBBA56D113EB026E00803183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBBA56D113EB026E00803183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA56D013EB026E00803183 /* SimpleNet.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBBA56D213EB026E00803183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA56D313EB026E00803183 /* Cocoa.framework */,
+				CBBA56D513EB026E00803183 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBBA56D513EB026E00803183 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA56D613EB026E00803183 /* AppKit.framework */,
+				CBBA56D713EB026E00803183 /* CoreData.framework */,
+				CBBA56D813EB026E00803183 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CBBA56D913EB026E00803183 /* SimpleNet */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA56DA13EB026E00803183 /* Supporting Files */,
+			);
+			path = SimpleNet;
+			sourceTree = "<group>";
+		};
+		CBBA56DA13EB026E00803183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA56DB13EB026E00803183 /* SimpleNet-Info.plist */,
+				CBBA56DC13EB026E00803183 /* InfoPlist.strings */,
+				CBBA56DF13EB026E00803183 /* SimpleNet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CBBA56CD13EB026E00803183 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CBBA56CF13EB026E00803183 /* SimpleNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBBA56E213EB026E00803183 /* Build configuration list for PBXNativeTarget "SimpleNet" */;
+			buildPhases = (
+				CBBA56CB13EB026E00803183 /* Sources */,
+				CBBA56CC13EB026E00803183 /* Frameworks */,
+				CBBA56CD13EB026E00803183 /* Headers */,
+				CBBA56CE13EB026E00803183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleNet;
+			productName = SimpleNet;
+			productReference = CBBA56D013EB026E00803183 /* SimpleNet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBBA56C613EB026E00803183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Altinett AS";
+			};
+			buildConfigurationList = CBBA56C913EB026E00803183 /* Build configuration list for PBXProject "SimpleNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBBA56C413EB026E00803183;
+			productRefGroup = CBBA56D113EB026E00803183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBBA56CF13EB026E00803183 /* SimpleNet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBBA56CE13EB026E00803183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA56DE13EB026E00803183 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBBA56CB13EB026E00803183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBBA56DC13EB026E00803183 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBA56DD13EB026E00803183 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBBA56E013EB026E00803183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBBA56E113EB026E00803183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBBA56E313EB026E00803183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleNet/SimpleNet-Prefix.pch";
+				INFOPLIST_FILE = "SimpleNet/SimpleNet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		CBBA56E413EB026E00803183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleNet/SimpleNet-Prefix.pch";
+				INFOPLIST_FILE = "SimpleNet/SimpleNet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBBA56C913EB026E00803183 /* Build configuration list for PBXProject "SimpleNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBA56E013EB026E00803183 /* Debug */,
+				CBBA56E113EB026E00803183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBBA56E213EB026E00803183 /* Build configuration list for PBXNativeTarget "SimpleNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBA56E313EB026E00803183 /* Debug */,
+				CBBA56E413EB026E00803183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBBA56C613EB026E00803183 /* Project object */;
+}

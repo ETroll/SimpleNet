@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SimpleNet' target in the 'SimpleNet' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
