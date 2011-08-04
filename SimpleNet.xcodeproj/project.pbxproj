@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		CBBA56D413EB026E00803183 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA56D313EB026E00803183 /* Cocoa.framework */; };
 		CBBA56DE13EB026E00803183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBBA56DC13EB026E00803183 /* InfoPlist.strings */; };
+		CBBA56EB13EB028100803183 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA56D313EB026E00803183 /* Cocoa.framework */; };
+		CBBA56F113EB028100803183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBBA56EF13EB028100803183 /* InfoPlist.strings */; };
+		CBBA56F313EB028100803183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA56F213EB028100803183 /* main.m */; };
+		CBBA56F713EB028100803183 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CBBA56F513EB028100803183 /* Credits.rtf */; };
+		CBBA56FA13EB028100803183 /* TestAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA56F913EB028100803183 /* TestAppAppDelegate.m */; };
+		CBBA56FD13EB028100803183 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBBA56FB13EB028100803183 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,9 +23,18 @@
 		CBBA56D613EB026E00803183 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CBBA56D713EB026E00803183 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CBBA56D813EB026E00803183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CBBA56DB13EB026E00803183 /* SimpleNet-Info.plist */ = {isa = PBXFileReference; path = "SimpleNet-Info.plist"; sourceTree = "<group>"; };
+		CBBA56DB13EB026E00803183 /* SimpleNet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleNet-Info.plist"; sourceTree = "<group>"; };
 		CBBA56DD13EB026E00803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CBBA56DF13EB026E00803183 /* SimpleNet-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleNet-Prefix.pch"; sourceTree = "<group>"; };
+		CBBA56DF13EB026E00803183 /* SimpleNet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleNet-Prefix.pch"; sourceTree = "<group>"; };
+		CBBA56E913EB028100803183 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBBA56EE13EB028100803183 /* TestApp-Info.plist */ = {isa = PBXFileReference; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
+		CBBA56F013EB028100803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBBA56F213EB028100803183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBBA56F413EB028100803183 /* TestApp-Prefix.pch */ = {isa = PBXFileReference; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
+		CBBA56F613EB028100803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CBBA56F813EB028100803183 /* TestAppAppDelegate.h */ = {isa = PBXFileReference; path = TestAppAppDelegate.h; sourceTree = "<group>"; };
+		CBBA56F913EB028100803183 /* TestAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppAppDelegate.m; sourceTree = "<group>"; };
+		CBBA56FC13EB028100803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBBA56E613EB028100803183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA56EB13EB028100803183 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -38,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				CBBA56D913EB026E00803183 /* SimpleNet */,
+				CBBA56EC13EB028100803183 /* TestApp */,
 				CBBA56D213EB026E00803183 /* Frameworks */,
 				CBBA56D113EB026E00803183 /* Products */,
 			);
@@ -47,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				CBBA56D013EB026E00803183 /* SimpleNet.framework */,
+				CBBA56E913EB028100803183 /* TestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +113,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CBBA56EC13EB028100803183 /* TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA56F813EB028100803183 /* TestAppAppDelegate.h */,
+				CBBA56F913EB028100803183 /* TestAppAppDelegate.m */,
+				CBBA56FB13EB028100803183 /* MainMenu.xib */,
+				CBBA56ED13EB028100803183 /* Supporting Files */,
+			);
+			path = TestApp;
+			sourceTree = "<group>";
+		};
+		CBBA56ED13EB028100803183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA56EE13EB028100803183 /* TestApp-Info.plist */,
+				CBBA56EF13EB028100803183 /* InfoPlist.strings */,
+				CBBA56F213EB028100803183 /* main.m */,
+				CBBA56F413EB028100803183 /* TestApp-Prefix.pch */,
+				CBBA56F513EB028100803183 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -119,6 +167,23 @@
 			productReference = CBBA56D013EB026E00803183 /* SimpleNet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		CBBA56E813EB028100803183 /* TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBBA56FE13EB028100803183 /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildPhases = (
+				CBBA56E513EB028100803183 /* Sources */,
+				CBBA56E613EB028100803183 /* Frameworks */,
+				CBBA56E713EB028100803183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestApp;
+			productName = TestApp;
+			productReference = CBBA56E913EB028100803183 /* TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -140,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				CBBA56CF13EB026E00803183 /* SimpleNet */,
+				CBBA56E813EB028100803183 /* TestApp */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +219,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBBA56E713EB028100803183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA56F113EB028100803183 /* InfoPlist.strings in Resources */,
+				CBBA56F713EB028100803183 /* Credits.rtf in Resources */,
+				CBBA56FD13EB028100803183 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -160,6 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBA56E513EB028100803183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA56F313EB028100803183 /* main.m in Sources */,
+				CBBA56FA13EB028100803183 /* TestAppAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +257,30 @@
 				CBBA56DD13EB026E00803183 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBBA56EF13EB028100803183 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBA56F013EB028100803183 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBBA56F513EB028100803183 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBA56F613EB028100803183 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CBBA56FB13EB028100803183 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBA56FC13EB028100803183 /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,6 +359,28 @@
 			};
 			name = Release;
 		};
+		CBBA56FF13EB028100803183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestApp/TestApp-Prefix.pch";
+				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBBA570013EB028100803183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestApp/TestApp-Prefix.pch";
+				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -267,6 +398,14 @@
 			buildConfigurations = (
 				CBBA56E313EB026E00803183 /* Debug */,
 				CBBA56E413EB026E00803183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBBA56FE13EB028100803183 /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBA56FF13EB028100803183 /* Debug */,
+				CBBA570013EB028100803183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
