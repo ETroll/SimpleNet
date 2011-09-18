@@ -7,29 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB28DB1C13F1A95100E3FA38 /* SNPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = CB28DB1A13F1A95100E3FA38 /* SNPackage.h */; };
+		CB28DB1D13F1A95100E3FA38 /* SNPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = CB28DB1B13F1A95100E3FA38 /* SNPackage.m */; };
 		CB440F6F13EB077500C084EB /* NSMutableArray+Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = CB440F6913EB077500C084EB /* NSMutableArray+Queue.h */; };
 		CB440F7013EB077500C084EB /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB440F6A13EB077500C084EB /* NSMutableArray+Queue.m */; };
 		CB440F7113EB077500C084EB /* SNNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = CB440F6B13EB077500C084EB /* SNNetwork.h */; };
 		CB440F7213EB077500C084EB /* SNNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CB440F6C13EB077500C084EB /* SNNetwork.m */; };
 		CB440F7313EB077500C084EB /* SNSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = CB440F6D13EB077500C084EB /* SNSocket.h */; };
 		CB440F7413EB077500C084EB /* SNSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CB440F6E13EB077500C084EB /* SNSocket.m */; };
+		CB9CF61313EC5CCB00A6A874 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB9CF61213EC5CCB00A6A874 /* README.md */; };
 		CBBA56D413EB026E00803183 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA56D313EB026E00803183 /* Cocoa.framework */; };
 		CBBA56DE13EB026E00803183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBBA56DC13EB026E00803183 /* InfoPlist.strings */; };
 		CBBA56EB13EB028100803183 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBA56D313EB026E00803183 /* Cocoa.framework */; };
 		CBBA56F113EB028100803183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBBA56EF13EB028100803183 /* InfoPlist.strings */; };
 		CBBA56F313EB028100803183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA56F213EB028100803183 /* main.m */; };
-		CBBA56F713EB028100803183 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CBBA56F513EB028100803183 /* Credits.rtf */; };
 		CBBA56FA13EB028100803183 /* TestAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA56F913EB028100803183 /* TestAppAppDelegate.m */; };
 		CBBA56FD13EB028100803183 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBBA56FB13EB028100803183 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB28DB1A13F1A95100E3FA38 /* SNPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNPackage.h; sourceTree = "<group>"; };
+		CB28DB1B13F1A95100E3FA38 /* SNPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNPackage.m; sourceTree = "<group>"; };
 		CB440F6913EB077500C084EB /* NSMutableArray+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Queue.h"; sourceTree = "<group>"; };
 		CB440F6A13EB077500C084EB /* NSMutableArray+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Queue.m"; sourceTree = "<group>"; };
 		CB440F6B13EB077500C084EB /* SNNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNNetwork.h; sourceTree = "<group>"; };
 		CB440F6C13EB077500C084EB /* SNNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNNetwork.m; sourceTree = "<group>"; };
 		CB440F6D13EB077500C084EB /* SNSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSocket.h; sourceTree = "<group>"; };
 		CB440F6E13EB077500C084EB /* SNSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSocket.m; sourceTree = "<group>"; };
+		CB9CF61213EC5CCB00A6A874 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		CBBA56D013EB026E00803183 /* SimpleNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBA56D313EB026E00803183 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CBBA56D613EB026E00803183 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -43,7 +48,6 @@
 		CBBA56F013EB028100803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBBA56F213EB028100803183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBBA56F413EB028100803183 /* TestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
-		CBBA56F613EB028100803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		CBBA56F813EB028100803183 /* TestAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppAppDelegate.h; sourceTree = "<group>"; };
 		CBBA56F913EB028100803183 /* TestAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppAppDelegate.m; sourceTree = "<group>"; };
 		CBBA56FC13EB028100803183 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				CB440F6A13EB077500C084EB /* NSMutableArray+Queue.m */,
 				CB440F6B13EB077500C084EB /* SNNetwork.h */,
 				CB440F6C13EB077500C084EB /* SNNetwork.m */,
+				CB28DB1A13F1A95100E3FA38 /* SNPackage.h */,
+				CB28DB1B13F1A95100E3FA38 /* SNPackage.m */,
 				CB440F6D13EB077500C084EB /* SNSocket.h */,
 				CB440F6E13EB077500C084EB /* SNSocket.m */,
 				CBBA56DA13EB026E00803183 /* Supporting Files */,
@@ -127,6 +133,7 @@
 				CBBA56DB13EB026E00803183 /* SimpleNet-Info.plist */,
 				CBBA56DC13EB026E00803183 /* InfoPlist.strings */,
 				CBBA56DF13EB026E00803183 /* SimpleNet-Prefix.pch */,
+				CB9CF61213EC5CCB00A6A874 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,7 +156,6 @@
 				CBBA56EF13EB028100803183 /* InfoPlist.strings */,
 				CBBA56F213EB028100803183 /* main.m */,
 				CBBA56F413EB028100803183 /* TestApp-Prefix.pch */,
-				CBBA56F513EB028100803183 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 				CB440F6F13EB077500C084EB /* NSMutableArray+Queue.h in Headers */,
 				CB440F7113EB077500C084EB /* SNNetwork.h in Headers */,
 				CB440F7313EB077500C084EB /* SNSocket.h in Headers */,
+				CB28DB1C13F1A95100E3FA38 /* SNPackage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBBA56DE13EB026E00803183 /* InfoPlist.strings in Resources */,
+				CB9CF61313EC5CCB00A6A874 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +253,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBBA56F113EB028100803183 /* InfoPlist.strings in Resources */,
-				CBBA56F713EB028100803183 /* Credits.rtf in Resources */,
 				CBBA56FD13EB028100803183 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 				CB440F7013EB077500C084EB /* NSMutableArray+Queue.m in Sources */,
 				CB440F7213EB077500C084EB /* SNNetwork.m in Sources */,
 				CB440F7413EB077500C084EB /* SNSocket.m in Sources */,
+				CB28DB1D13F1A95100E3FA38 /* SNPackage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +297,6 @@
 				CBBA56F013EB028100803183 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CBBA56F513EB028100803183 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBBA56F613EB028100803183 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		CBBA56FB13EB028100803183 /* MainMenu.xib */ = {

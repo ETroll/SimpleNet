@@ -7,13 +7,30 @@
 //
 
 #import <Foundation/Foundation.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <netdb.h>
+
+#import "SNPackage.h"
 
 @interface SNSocket : NSObject {
-    BOOL isRunning;
+    BOOL isConnected;
+    int port;
+    
+    @private
+    int socketDescriptor;
+    int maxPackageSize;
+    int maxClients;
+    int maxNetworkChunk;
 }
-@property BOOL isRunning;
+@property (readonly) BOOL isConnected;
+@property (readonly) int port;
 
 /*
+ 
+OLD v1.1 API:
+
 unsigned int 	Socket_IsRunning(Socket* soc);
 
 Socket*			Socket_CreateSocket();
@@ -26,4 +43,15 @@ void 			Socket_Disconnect(Socket* soc);
 int 			Socket_Send(const Package* pPkg);
 Package*		Socket_Receive(int fdRecieveFrom);
 */
+
+
+- (BOOL) BindOnPort: (int) port;
+- (BOOL) Listen;
+- (BOOL) AcceptNewClient: (int*) fdToNewClient;
+- (BOOL) ConnectoToServer: (NSString*) server onPort: (int) port;
+- (void) Disconnect;
+- (int) SendPackage: (SNPackage*) package;
+- (SNPackage*) ReceivePackageFrom: (int) sender;
+
+
 @end

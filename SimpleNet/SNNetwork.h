@@ -26,4 +26,8 @@
 
 
 @property (assign) id <SNNetworkConnectionDelegate> delegate;
+
+- (id) initWithPackageSize: (int) size maxBytes: (int) bytes maxClients: (int) cmax;
+
+
 @end
