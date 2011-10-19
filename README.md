@@ -1,5 +1,3 @@
 SimpleNet
 
-More to come.
-
-For API see wiki.
+Work in progress atm.
